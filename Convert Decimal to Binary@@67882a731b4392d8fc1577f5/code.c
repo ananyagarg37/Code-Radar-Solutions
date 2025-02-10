@@ -28,7 +28,7 @@ int main() {
     scanf("%u", &num);
 
     // Printing the binary representation
-    printf(" ", num);
+    printf("", num);
     printBinary(num);
 
     return 0;
