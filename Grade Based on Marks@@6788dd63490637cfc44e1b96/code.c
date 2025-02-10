@@ -13,7 +13,7 @@ int main() {
     } else if (marks < 60) {
         grade = 'F';
     }
-    printf("%d\n", grade);
+    printf("%c\n", grade);
 
     return 0;
 }
