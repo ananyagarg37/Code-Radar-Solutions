@@ -21,7 +21,7 @@ int main() {
     }
 
     // Printing the assigned grade
-    printf("Grade: %c\n", grade);
+    printf("%c\n", grade);
 
     return 0;
 }
