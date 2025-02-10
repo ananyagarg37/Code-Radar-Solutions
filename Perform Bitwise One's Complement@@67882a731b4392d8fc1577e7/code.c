@@ -9,7 +9,7 @@ int main() {
     result = ~num;
 
     
-    printf("Result of one's complement operation: %d\n", result);
+    printf("%d\n", result);
 
     return 0;
 }
