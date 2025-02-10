@@ -10,7 +10,7 @@ int main() {
     result = num << shift;
 
     
-    printf(" %d\n", result);
+    printf("%d\n", result);
 
     return 0;
 }
