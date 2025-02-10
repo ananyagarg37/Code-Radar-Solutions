@@ -1,14 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, result;
+    int num, shift, result;
 
-    scanf("%d %d", &num1, &num2);
+  
+    scanf("%d %d", &num, &shift);
+
+   
+    result = num << shift;
 
     
-    result = num1 ^ num2;
-
-    printf("%d\n", result);
+    printf(" %d\n", result);
 
     return 0;
 }
+
