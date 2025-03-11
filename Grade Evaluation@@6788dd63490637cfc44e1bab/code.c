@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-     char ch ;
+     char ch , A,B,C,D,E,F ;
      scanf("%c",&ch);
 
      if(ch == A){
