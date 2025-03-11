@@ -1,58 +1,48 @@
 #include <stdio.h>
-int main(){
-    int a;
-    scanf("%d",&a);
 
-    if(a=1){
+int main() {
+    int a;
+    scanf("%d", &a);
+
+    if (a == 1) {
         printf("31");
-        break ;
-    }
-     if(a=2){
+    } 
+    else if (a == 2) {
         printf("28");
-        break ;
-    }
-     if(a=3){
+    } 
+    else if (a == 3) {
         printf("31");
-        break ;
-    }
-     if(a=4){
+    } 
+    else if (a == 4) {
         printf("30");
-        break ;
-    }
-     if(a=5){
+    } 
+    else if (a == 5) {
         printf("31");
-        break ;
-    }
-     if(a=6){
+    } 
+    else if (a == 6) {
         printf("30");
-        break ;
-    }
-     if(a=7){
+    } 
+    else if (a == 7) {
         printf("31");
-        break ;
-    }
-     if(a=8){
+    } 
+    else if (a == 8) {
+        printf("31");
+    } 
+    else if (a == 9) {
         printf("30");
-        break ;
-    }
-     if(a=9){
+    } 
+    else if (a == 10) {
         printf("31");
-        break ;
-    }
-     if(a=10){
-        printf("31");
-        break ;
-    }
-     if(a=11){
+    } 
+    else if (a == 11) {
         printf("30");
-        break ;
-    }
-     if(a=1){
+    } 
+    else if (a == 12) {
         printf("31");
-        break ;
-    }
-    else{
+    } 
+    else {
         printf("Invalid");
-        break ;
     }
+
+    return 0;
 }
